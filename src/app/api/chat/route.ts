@@ -53,7 +53,7 @@ export async function POST(req: NextRequest) {
 
     if (!validationResult.success) {
       return NextResponse.json(
-        { error: "Invalid request payload detected by security filters.", details: validationResult.error.errors },
+        { error: "Invalid request payload detected by security filters.", details: validationResult.error.flatten().fieldErrors },
         { status: 400 }
       );
     }
