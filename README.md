@@ -1,5 +1,7 @@
 # VenueFlow: The Smart Stadium Experience
 
+🔗 **Live Deployment:** [VenueFlow Dashboard](https://venueflow-bv552u7o5a-uc.a.run.app/)
+
 ## Overview
 VenueFlow is a high-end, mobile-first Next.js application designed to optimize the attendee experience at large-scale physical events. By integrating real-time data and Google AI, VenueFlow eliminates the chaos of modern sporting events.
 
